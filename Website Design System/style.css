@@ -1,9 +1,12 @@
+body {
+	background-color: #f0ffff;
+}
 ul {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
-	background-color: #333;
+	background-color: #778899;
 	font-weight: 500px;
 }
 
@@ -76,5 +79,52 @@ p {
 
 h2 {
 	position: relative;
-	left: 47%;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.train p {
+	font-family: 'Train One';
+}
+
+.indica {
+	font-family: 'Indie Flower', cursive;
+}
+.bolder {
+	font-weight: 100;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.dancing {
+	font-family: 'Dancing Script', cursive;
+}
+
+h3 {
+	text-decoration: underline;
+}
+
+h2 .fonts {
+	position: relative;
+	text-align: center;
+}
+
+.header1 {
+	font-size: 26px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 700;
+}
+
+.header2 {
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 500;
+}
+
+.header3 {
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: 400;
 }
